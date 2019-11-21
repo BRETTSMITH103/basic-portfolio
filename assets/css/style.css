@@ -1,0 +1,36 @@
+*{ box-sizing: border-box;}
+
+
+
+body {
+    background-color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    }
+
+header {
+background: blue;
+    }
+
+h1 {
+color: aquamarine;
+padding: 20px 0;
+margin: 0;
+margin-bottom: 20px;
+font-size 28px;
+text-align: center;
+}
+
+.container {width 1000px;
+margin: 0 auto;}
+
+.main-bio,
+.contact-info,
+.bio-image {float: left}
+
+.main-bio {70%;}
+
+.contact-info { 25%;}
