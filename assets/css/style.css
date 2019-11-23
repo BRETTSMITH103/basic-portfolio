@@ -1,19 +1,22 @@
 *{ box-sizing: border-box;}
 
+:root {
+    --primary:#f7bfef;
+    --secondar:#4625bb;
+    --tile:#
+}
+
 
 
 body {
-    background-color: red;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #333333;
+    background-color: var(--primary);
+    font-family: Georgia, 'Times New Roman', Times, serif;;
     margin: 0;
     padding: 0;
-    line-height: 1.5;
-    }
+        }
 
-header {
-background: blue;
-    }
+
+
 
 h1 {
 color: aquamarine;
@@ -24,13 +27,59 @@ font-size 28px;
 text-align: center;
 }
 
-.container {width 1000px;
-margin: 0 auto;}
+header {
+    width: 100%;
+    background-color: var(--)
+}
 
-.about-me,
-.contact-info,
-.bio-image {float: left}
-
-.main-bio {70%;}
-
-.contact-info { 25%;}
+.three-links {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .three-links h1 {
+    margin: 0;
+    background-color: var(--sapphire);
+    padding: 20px 15px;
+  }
+  
+  .three-links h1 a {
+    color: var(--light);
+    text-decoration: none;
+  }
+  
+  .three-links nav {
+    margin-left: auto;
+    display: flex;
+    flex-wrap: auto;
+    justify-content: center;
+  }
+  
+  .three-links nav a {
+    color: var(--light);
+    padding: 0 15px;
+    font-size: 20px;
+    text-decoration: none;
+    border-right: 2px solid var(--light-blue);
+  }
+  
+  .three-links nav a:last-child {
+    border-right: none;
+  }
+  
+  
+  
+    .three-links {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .three-links h1,
+    .three-links nav {
+      width: 100%;
+    }
+  
+  }
