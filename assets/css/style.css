@@ -1,80 +1,87 @@
 *{ box-sizing: border-box;}
 
 :root {
-    --primary:#f7bfef;
-    --secondar:#4625bb;
-    --tile:#
+    --teel:#4aaaa5;
+    --main-font:#777777;
+    --head-bgd:#ffffff;
+    --head-border:#cccccc;
+    --f-bgd:#666666;
+    --main-bgd:#ffffff;
+    --main-border:#dddddd;
 }
 
-
-
 body {
-    background-color: var(--primary);
-    font-family: Georgia, 'Times New Roman', Times, serif;;
+    background-color: var(--f-bgd);
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 0;
     padding: 0;
         }
 
-
-
-
-h1 {
-color: aquamarine;
-padding: 20px 0;
-margin: 0;
-margin-bottom: 20px;
-font-size 28px;
-text-align: center;
-}
-
 header {
-    width: 100%;
-    background-color: var(--)
+    width: 960px;
+    background-color: var(--head-bgd);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
 }
 
+.container3 {
+  float: left;
+  background-color: var(--teel)
+}
 .three-links {
     width: 90%;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    float: right;
+    
   }
   
-  .three-links h1 {
+  /* .three-links h1 { */
     margin: 0;
-    background-color: var(--sapphire);
+    background-color: var(--head-border);
     padding: 20px 15px;
   }
   
   .three-links h1 a {
-    color: var(--light);
+    background-color: var(--head-bgd);
     text-decoration: none;
   }
   
-  .three-links nav {
+  /* .three-links nav { */
     margin-left: auto;
     display: flex;
     flex-wrap: auto;
-    justify-content: center;
+    justify-content: left;
   }
   
-  .three-links nav a {
+  /* .three-links nav a { */
     color: var(--light);
     padding: 0 15px;
     font-size: 20px;
     text-decoration: none;
-    border-right: 2px solid var(--light-blue);
+    border-right: 2px solid var(--head-border);
   }
   
-  .three-links nav a:last-child {
-    border-right: none;
+  /* .three-links nav a:last-child { border-right: none; */
   }
-  
+  .heading { 
+width: 960px;
+
+  }
+  .container1 {
+    
+    height: 960px;
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  border-color: var(--main-border);
+  background-color: var(--main-bgd);
+  }
   
   
     .three-links {
       width: 100%;
-      text-align: center;
+      text-align: left;
     }
   
     .three-links h1,
